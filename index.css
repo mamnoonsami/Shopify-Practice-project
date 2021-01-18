@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(202, 202, 202);
+}
+.wholeCont{
+    height: 100vh;
+    font-family: "Poppins",sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    border-radius: 10px;
+    background-color:rgb(161, 160, 160);
+    width: 60%;
+    padding: 15px;
+    box-shadow: 0 0 6px 1px rgb(43, 42, 42);
+   
+}
+.form{
+    margin: 10px 5px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.inputs i{
+    position: absolute;
+    padding: 12px 0 0 10px;
+    color: rgb(150, 147, 147);
+}
+.button{
+    margin-top: 5px;
+    border: 0;
+    background: rgb(54, 179, 106);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.button:hover{
+	cursor: pointer;
+	box-shadow: 0 0 10px 2px steelblue;
+}
+.movie-title{
+    border-radius: 5px;
+    width: 100%;
+    border: 0;
+    background-color: rgb(105, 105, 105);
+    padding: 12px;
+    padding-left: 30px;
+    outline: none;
+}
+h3{
+    font-weight: 500;
+    font-size: smaller;
+}
+.container1{
+    border-radius: 10px;
+    width: 48%;
+    background-color:rgb(161, 160, 160);
+    padding: 5px;
+    box-shadow: 0 0 6px 1px rgb(43, 42, 42);
+}
+.container2{
+    border-radius: 10px;
+    width: 48%;
+    background-color:rgb(161, 160, 160);
+    padding: 5px;
+    box-shadow: 0 0 6px 1px rgb(43, 42, 42);
+}
+.container1_2{
+    margin-top: 18px;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#shoppies{
+        width: 60%;
+}
+.results{
+    display: flex;
+    margin-bottom: 5px;
+}
+.nominations{
+    display: flex;
+}
+ul{
+    padding-left: 40px;
+}
+.sub-buttons{
+    background:rgb(105, 105, 105);
+    color: rgb(199, 190, 190);
+    border: 1px solid;
+    padding: 4px 4px;
+
+    border-radius: 3px;
+
+}
